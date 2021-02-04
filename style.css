@@ -1,0 +1,218 @@
+body, html {
+        height: 100%;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        
+  }
+                        
+  #logo {
+        height: 50px;
+        margin-left: 25px;
+        margin-right: 40px;
+        position: relative;
+        top: 10px;
+        float: left;
+  } 
+
+  .logo {
+      overflow: hidden;
+      background-color: black;
+      height: 70px;
+  }
+
+/* topnav menu */
+  .topnav {
+        overflow: hidden;
+        background-color: black;
+        height: 70px;
+  }
+  
+  .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bolder;
+        
+  }
+  
+  .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        font-size: 22px;
+        height: 70px;
+  }
+  
+  .topnav a.active {
+        background-color: rgb(76, 175, 175);
+        color: white;
+        height: 70px;
+  }
+ 
+/* home page */
+
+/* homepage-sale */
+.homepage-sale {
+        width: 1200px;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        box-shadow: 0px 10px 10px black;
+        
+        /* color: #f37060; */
+        
+  }
+  
+  .bg-homepage-sale {
+      height: 400px;
+      width: 1200px;
+      background-color: black;
+      border-radius: 30px;
+ }
+
+/* shop page */
+   .left-product {
+         height: 562px;
+         width: 450px;
+         background-color: black;
+         border-radius: 10px;
+         position: absolute;
+         top: 50%;
+         left: 20%;
+         transform: translate(-50%, -50%);
+ }       
+
+   .center-product {
+      height: 562px;
+      width: 450px;
+      background-color: black;
+      border-radius: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}   
+
+  .right-product {
+      height: 562px;
+      width: 450px;
+      background-color: black;
+      border-radius: 10px;
+      position: absolute;
+      top: 50%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+}
+
+/* contact page   */  
+  .contact hr {
+        width: 350px;
+        position: relative;
+        top: -20px;
+  }
+
+  .contact {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        width: 700px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+
+    .contact a:hover {
+         color: rgb(76, 175, 175);
+         font-size: 28px;
+    }
+
+    .contact-bg {
+          height: 500px;
+          width: 900px;
+          background-color: black;
+          position: absolute;
+          top: 55%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          border-radius: 20px;
+          opacity: .85;       
+    }
+
+    .contact-style {
+          text-decoration: none;
+          color: white;
+          margin-left: 10px;
+    }
+
+/* about page */
+      .about hr {
+            width: 350px;
+            position: relative;
+            top: -20px;
+      }
+      .about {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            width: 700px;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            
+      }
+      .about-bg {
+            height: 600px;
+            width: 900px;
+            background-color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 20px;
+            opacity: .85; 
+      } 
+
+/* footer */
+   footer {
+         overflow: hidden;
+         height: 50px;
+         background-color: black;
+   }
+
+   .copyright {
+         position: relative;
+         top: 10px;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         color: whitesmoke;
+         text-align: center;
+   }
+
+   .social_icons {
+         height: 30px;
+         position: relative;
+         bottom: 10px;
+         margin-right: 25px;
+         float: right;
+   }
+
+    
+/* background */
+  .bg {
+        /* The image used */
+        background-image: url("gie_images/getitapparel_bg.png");
+    
+        /* Full height */
+        height: 100%; 
+    
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* visibility: hidden; */
+  }
