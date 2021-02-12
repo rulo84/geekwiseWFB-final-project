@@ -51,6 +51,14 @@ body, html {
         height: 70px;
   }
  
+  .mp3 {
+       height: 25px;
+       width: 280px;
+       margin-top: 20px;
+       margin-right: 20px;
+       float: right;     
+  }
+
 /* home page */
 
 /* homepage-sale */
